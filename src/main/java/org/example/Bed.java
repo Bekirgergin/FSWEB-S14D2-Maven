@@ -7,12 +7,12 @@ public class Bed {
     private int sheets;
     private int quilts;
 
-    public Bed(String style, int pillows, int height, int sheets, int quilt) {
+    public Bed(String style, int pillows, int height, int sheets, int quilts) {
         this.style = style;
         this.pillows = pillows;
         this.height = height;
         this.sheets = sheets;
-        this.quilts = quilt;
+        this.quilts = quilts;
     }
 
     public void make() {
